@@ -35,7 +35,7 @@ const Arrays = () => {
             <p>Preço: R${produto.preco}</p>
             <ul>
               {produto.cores.map((cor, index) => (
-                <li key={index} style={{ background: cor }}>
+                <li key={index} style={{ background: cor, color: '#fff' }}>
                   {cor}
                 </li>
               ))}

@@ -1,5 +1,3 @@
-import React from 'react';
-
 const luana = {
   cliente: 'Luana',
   idade: 27,
@@ -35,7 +33,8 @@ const Jsx1e2 = () => {
   const dados = luana;
   return (
     <>
-      <h1>Nome: {dados.cliente}</h1>
+      <h1>JSX</h1>
+      <h2>Nome: {dados.cliente}</h2>
       <p>Idade: {dados.idade}</p>
       <p>
         Situação:{' '}

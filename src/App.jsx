@@ -5,18 +5,30 @@ import Atalhos from './component/Atalhos';
 import Propriedades from './component/Propriedades';
 import Form from './component/Form/Form';
 import IndexDesafio1 from './component/defasio-react-iniciante/IndexDesafio1';
+import './App.css';
 
 const App = () => {
   return (
-    <>
-      <Jsx1e2 />
-      <Arrays />
-      <Atalhos />
-      <Propriedades />
-      <Form />
-      <h1>Desafio 1</h1>
-      <IndexDesafio1 />
-    </>
+    <div className="container">
+      <div>
+        <IndexDesafio1 />
+      </div>
+      <div>
+        <Jsx1e2 />
+      </div>
+      <div>
+        <Arrays />
+      </div>
+      <div>
+        <Atalhos />
+      </div>
+      <div>
+        <Propriedades />
+      </div>
+      <div>
+        <Form />
+      </div>
+    </div>
   );
 };
 

@@ -11,6 +11,9 @@ const Navabr = () => {
         <li>
           <Link to="/produtos">Produtos</Link>
         </li>
+        <li>
+          <Link to="/hooks">Rooks</Link>
+        </li>
       </ul>
     </nav>
   );

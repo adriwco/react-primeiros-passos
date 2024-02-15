@@ -1,9 +1,9 @@
-.container{
+.container {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
-.container > div:not(:first-child){
+.container > div:not(:first-child) {
   border: 1px solid #000;
   padding: 20px;
 }

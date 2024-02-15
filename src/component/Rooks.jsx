@@ -3,6 +3,7 @@ import Navabr from './defasio-react-iniciante/comp-desafio/Navabr';
 import ButtonModal from './comp-hooks/ButtonModal';
 import Modal from './comp-hooks/Modal';
 import UseState_Fetch from './exercicio-hook-1/useState_Fetch';
+import ExemploUseReducer from './comp-hooks/ExemploUseReducer';
 
 const Rooks = () => {
   const [ativo, setAtivo] = useState(false);
@@ -33,6 +34,9 @@ const Rooks = () => {
 
       <h2>Exercício useState</h2>
       <UseState_Fetch />
+
+      <h2>Exemplo useReducer</h2>
+      <ExemploUseReducer />
     </div>
   );
 };

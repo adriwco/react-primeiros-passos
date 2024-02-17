@@ -35,7 +35,9 @@ const ExemploUseReducer = () => {
       >
         -
       </button>
-      <span>Count: {state.count}</span>
+      <span>
+        <strong>Count:</strong> {state.count}
+      </span>
     </div>
   );
 };

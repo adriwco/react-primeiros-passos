@@ -4,6 +4,8 @@ import ButtonModal from './comp-hooks/ButtonModal';
 import Modal from './comp-hooks/Modal';
 import UseState_Fetch from './exercicio-hook-1/useState_Fetch';
 import ExemploUseReducer from './comp-hooks/ExemploUseReducer';
+import ExemploUseEffect from './comp-hooks/ExemploUseEffect';
+import UseEffect_Axios from './exercicio-hook-2/UseEffect_Axios';
 
 const Rooks = () => {
   const [ativo, setAtivo] = useState(false);
@@ -32,11 +34,17 @@ const Rooks = () => {
       <Modal setModal={setModal} modal={modal} />
       <ButtonModal setModal={setModal} />
 
-      <h2>Exercício useState</h2>
+      <h3>Exercício useState</h3>
       <UseState_Fetch />
 
-      <h2>Exemplo useReducer</h2>
+      <h3>Exemplo useReducer</h3>
       <ExemploUseReducer />
+
+      <h2>useEffect</h2>
+      <ExemploUseEffect />
+
+      <h3>Exercício useEffect</h3>
+      <UseEffect_Axios />
     </div>
   );
 };
